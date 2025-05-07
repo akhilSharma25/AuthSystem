@@ -11,7 +11,7 @@ const PORT = process.env.PORT || 8000;
 
 connectDb();
 
-const allowedOrigins = ['http://localhost:5173'];
+const allowedOrigins = ['https://authsystem-xr9x.onrender.com'];
 
 app.use(cors({ origin: allowedOrigins, credentials: true }));
 app.use(express.json());
