@@ -1,0 +1,21 @@
+# Environment files
+.env
+.env.*
+
+# Package files
+package.json
+package-lock.json
+yarn.lock
+
+# Node modules
+node_modules/
+
+# Frontend build outputs
+client/node_modules/
+client/package.json
+client/package-lock.json
+
+# Backend build outputs
+server/node_modules/
+server/package.json
+server/package-lock.json
